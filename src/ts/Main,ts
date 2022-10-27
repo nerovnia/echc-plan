@@ -1,0 +1,6 @@
+import Manufactory from "./Manufactory";
+import Transport from "./Transport";
+import ManufactoryType from "./ManufactoryType";
+import TransportType from "./TransportType";
+
+//let manufacture: Manufactory = new Manufactory()

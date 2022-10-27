@@ -1,5 +1,5 @@
 /** Class representing a manufactory. */
-class Manufactory {
+export default class Manufactory {
   private static id: number = 0;
   static getId(): number { return ++Manufactory.id; }
   private transport: Array<number>;

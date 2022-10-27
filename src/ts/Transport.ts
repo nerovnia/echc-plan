@@ -1,7 +1,7 @@
 /** Class representing transport. */
-class Transport {
+export default class Transport {
   private static id: number = 0;
-  static getId(): number { return ++Manufactory.id; }
+  static getId(): number { return ++Transport.id; }
   /**
   * Create transport.
   * @param {number} id    - identify number.
