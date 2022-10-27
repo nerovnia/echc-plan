@@ -1,4 +1,4 @@
-# eche-plan
+# echc-plan
 
 tsc --project ./cfg/tsconfig.json
 
