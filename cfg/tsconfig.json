@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "module": "none",
     "removeComments": true,
-    "outFile": "../js/main.js",
+    "outFile": "../js/main.js"
   },
   "entryPoints": ["../src/ts/Main.ts"],
   "include": ["../src/ts/**/*.ts"]
