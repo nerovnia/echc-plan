@@ -3,8 +3,7 @@ class StoppingPoint {
   private static id: number = 0;
   static getId(): number { return ++StoppingPoint.id; }
   /**
-  * Create transport.
-  * @param {number} id    - identify number.
+  * Create stopping point.
   * @param {string} name  - railway stopping point's name.
   */
   private id: number;

@@ -3,8 +3,7 @@ class UWICE {
   private static id: number = 0;
   static getId(): number { return ++UWICE.id; }
   /**
-  * Create transport.
-  * @param {number} id        - identify number.
+  * Create unit with an internal combustion engine.
   * @param {number} own       - own.
   * @param {number} ownType   - own's type.
   * @param {string} name      - unit with an internal combustion engine's name.

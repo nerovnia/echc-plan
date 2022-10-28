@@ -7,7 +7,7 @@ class Own {
   * @param {number} own  - an own.
   * @param {number} type  - an own's type.
   */
-   private id: number;
+  private id: number;
   constructor(
     private own: number, 
     private type: number, 
