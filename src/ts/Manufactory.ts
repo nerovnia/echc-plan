@@ -1,5 +1,5 @@
 /** Class representing a manufactory. */
-export default class Manufactory {
+class Manufactory {
   private static id: number = 0;
   static getId(): number { return ++Manufactory.id; }
   private transport: Array<number>;
@@ -9,12 +9,14 @@ export default class Manufactory {
   * @param {number} numIter - Name number of manufactory.
   * @param {number} manType - Type of manufactory.
   */
+ private id: number;
   constructor(
     private numMan:number, 
     private numIter: number, 
     private manType: number
   ) 
   {
+    this.id = Manufactory.getId();
     this.numMan = numMan;
     this.numIter = numIter;
     this.manType = manType;
