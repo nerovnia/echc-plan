@@ -4,6 +4,17 @@
 
 ```bash
 $ npm install
+
+## After install preparation
+
+Create files:
+.env.production
+.env.development
+
+Parameters:
+PORT=3000
+STORAGE='./' + pathToDatabase
+
 ```
 
 ## Running the app
@@ -31,6 +42,8 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+
 ## License
 
 PROPRIETARY
